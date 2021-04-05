@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #e4f5ff;
+}
+
 .header{
     padding-top: 30px;
     width: 100%;
@@ -204,3 +208,50 @@ html {
 .footer a:hover{
     text-decoration: underline;
 }
+
+/* FORMULÁRIO LOGIN */
+
+#form-login{
+    background-color: #95c7d5;
+    width: 40%;
+    margin: auto;
+    height: 340px;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #666;
+}
+
+#form-login h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#form-login label,
+#form-login input,
+#form-login button{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#form-login input{
+    margin-bottom: 25px;
+    border: 1px solid #b5b5b5;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#form-login button{
+    width: 20%;
+    margin-left: 40%;
+    padding: 10px;
+    border: none;
+    background-color: #2d7a9c;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
